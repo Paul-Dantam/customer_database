@@ -2,23 +2,16 @@
     font-family: , sans-serif;
 }
 
-
-
 .title{
     text-align:center;
     text-transform: uppercase;
     margin-bottom: 3rem;
-
 }
-
 
 .wrapper{
-display:flex;
-justify-content:center;
-
+    display:flex;
+    justify-content:center;
 }
-
-
 
 img{
     height:15rem;
@@ -31,16 +24,13 @@ img{
     flex-wrap:wrap;
     width:85%;
     justify-content: space-between;
-
 }
-
 
 .content{
     display:flex;
     flex-direction:column;
     flex-basis:24%;
     justify-content: center;
-    
 }
 
 .name{
@@ -48,8 +38,6 @@ img{
    font-weight:bold;
    text-decoration: underline #6ABC95;
     text-align:center;
-    /* padding-bottom:.5rem; */
-
 }
 
 .email{
@@ -60,8 +48,8 @@ img{
 }
 
 .address{
-margin:0;
-text-align:center;
+    margin:0;
+    text-align:center;
 }
 
 .ssn{

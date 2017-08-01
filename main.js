@@ -8,7 +8,6 @@ const newMarkUp = `
 document.querySelector("body").innerHTML = newMarkUp;
 
 
-
 for (var i = 0; i < customers.results.length; i++) {
     var directory = `
     <div class="content">
