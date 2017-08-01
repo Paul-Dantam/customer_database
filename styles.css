@@ -1,0 +1,78 @@
+.main{
+    font-family: , sans-serif;
+}
+
+
+
+.title{
+    text-align:center;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+
+}
+
+
+.wrapper{
+display:flex;
+justify-content:center;
+
+}
+
+
+
+img{
+    height:15rem;
+    border-bottom:1rem;
+}
+
+.container{
+     display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    width:85%;
+    justify-content: space-between;
+
+}
+
+
+.content{
+    display:flex;
+    flex-direction:column;
+    flex-basis:24%;
+    justify-content: center;
+    
+}
+
+.name{
+    text-transform:uppercase;
+   font-weight:bold;
+   text-decoration: underline #6ABC95;
+    text-align:center;
+    /* padding-bottom:.5rem; */
+
+}
+
+.email{
+    text-align:center;
+    font-weight:200;
+    color:lightgray;
+    text-transform:uppercase;
+}
+
+.address{
+margin:0;
+text-align:center;
+}
+
+.ssn{
+    margin-top:0;
+    margin-bottom:4rem;
+    text-align:center;
+    color:transparent;
+    text-shadow: 0 0 8px rgba(0,120,0,1);
+}
+
+.ssn:hover{
+    color:#6ABC95;
+    text-shadow: 0 0 0;
+}
